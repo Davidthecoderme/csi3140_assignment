@@ -1,1 +1,157 @@
 
+body{
+    background-color: rgb(210, 210, 210);
+}
+.header{
+    box-sizing: border-box;
+    padding: 20px 10%;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label{
+    color:white;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+.label:hover{
+    color:red;
+    text-shadow: 0 0 20px red;
+}
+.navBar a{
+    font-size: 15px;
+    color:greenyellow;
+    margin:35px;
+    justify-content: space-between;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease;
+
+}
+.navBar a:hover,
+.navBar a.active{
+    color:red;
+    border-bottom:3px solid red;
+}
+
+.contact{
+    padding: 10px,25px;
+    background-color:white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+.contact:hover{
+    background-color: red;
+    box-shadow: 0 0 20px red;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  
+    
+}
+.about h1{
+    font-size: 45px;
+}
+
+
+.image-about-me{
+    position: relative;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    margin-right: 15%;
+
+}
+
+.resume-box{
+    margin: auto;
+    width: 95%;
+    border-radius: 25px;
+    border-color: black;
+    padding: 35px;
+    background-color: white;
+    min-height: 200px;
+} 
+
+
+.resume-header{
+    text-align: center;
+    color:black;
+    font-size: 21px;
+}
+
+.info-box {
+    display: flex;
+    justify-content: space-between;
+}
+.info-section{
+    min-width: 200px;
+}
+  
+.info-section-right {
+    min-width: 200px;
+    text-align: end;
+}
+
+
+.project-box{
+    margin: auto;
+    width: 95%;
+    border-radius: 25px;
+    border-color: aquamarine;
+    padding: 35px;
+    background-color: white;
+    min-height: 200px;
+}
+
+.contact-form form{
+    max-width: 400px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.contact-form h2{
+    text-align: center;
+    margin: 15px auto;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.contact-form form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.contact-form form textarea, .contact-form form .input-box input{
+    width: 100%;
+    padding: auto;
+    font-size: 15px;
+    background-color: rgb(234, 245, 245);
+    border-radius: 10px;
+    margin: auto;
+
+}
+.btn{
+    padding: auto;
+    background-color: black;
+    border-radius: 10%;
+    transition: 0.3 ease;
+    cursor: pointer;
+    border: 2px solid transparent;
+    font-size: 20px;
+    color: white;
+}
+.btn:hover{
+    background-color: whitesmoke;
+    color: brown;
+}
