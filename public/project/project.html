@@ -1,27 +1,24 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Portfolio</title>
-     <link rel="stylesheet" href="../style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <header class="header">
-        
-        <nav class = "navBar">
+        <nav class="navBar">
             <a href="../index.html#about-us" class="">About Us</a>
-            <a href="../resume/resume.html">resume</a>
+            <a href="../resume/resume.html">Resume</a>
             <a href="project.html">Project</a>
         </nav>
         <a href="../index.html#contact" class="contact">Contact Me</a>
     </header>
     <hr>
-    <h2>Projects </h2>
+    <h2>Projects</h2>
     <section id="project">
         <div class="project-box">
-            
             <hr>
             <div class="info-box">
                 <div class="info-section">
@@ -32,9 +29,7 @@
                 <div class="info-section-right">
                     <p>individual project</p> <br>
                 </div>
-                
             </div>
-
             <hr>
             <div class="info-box">
                 <div class="info-section">
@@ -59,29 +54,50 @@
                 </div>
             </div>
             <hr>
-            <div class="info-box">
-                <div class="info-section">
-                    <b>Tic Tac Toe</b>: HTML, CSS, JavaScript, PHP
-                    <br>
-                    This code implements a dynamic version of the Tic-Tac-Toe game where players click cells in a 3x3 grid to mark 'X' or 'O'. It includes:
-                    <ul>
-                        <li>Game state tracking to determine turns, check for winners, and handle draws.</li>
-                        <li>Score updates and a dynamic leaderboard to reflect player performance.</li>
-                        <li>Functionality to reset the game and continue with new rounds, preserving player scores.</li>
-                        <li>Editable player names that can be dynamically changed and saved.</li>
-                    </ul>
-                    The game leverages PHP for backend processing of game moves, state management, and score updates.
+            <div class="project-row">
+                <div class="project-card">
+                    <img src="../image/tictactoe.png" alt="Tic Tac Toe">
+                    <div class="project-info">
+                        <h3>Tic Tac Toe</h3>
+                        <p>HTML, CSS, JavaScript
+                            <br>This code implements a simple version Tic-Tac-Toe game where players click cells in a 3x3 grid to mark 'X' or 'O'. It tracks the game state, checks for winners or draws, and updates the status text. Players can reset the game and change their names dynamically, with functions managing cell clicks, resets, and name edits.
+                       
+                        <br>Created By: Group project
+                    </p>
+                        <a href="assignment2.html" class="view-details">View Details</a>
+                        <a href="https://github.com/Davidthecoderme/csi3140_assignment2.git" class="git-link"> Git link for project, please click to enter</a>
+                    </div>
+                </div>  
+
+                <div class="project-card">  
+                    <img src="../image/tictactoe.png" alt="Tic Tac Toe">
+                    <div class="project-info">
+                        <h3>Tic Tac Toe (with PHP)</h3>
+                        <p>HTML, CSS, JavaScript, PHP
+                            <br>This code implements a dynamic version of the Tic-Tac-Toe game where players click cells in a 3x3 grid to mark 'X' or 'O'. It includes:
+                        <ul>
+                            <li>Game state tracking to determine turns, check for winners, and handle draws.</li>
+                            <li>Score updates and a dynamic leaderboard to reflect player performance.</li>
+                            <li>Functionality to reset the game and continue with new rounds, preserving player scores.</li>
+                            <li>Editable player names that can be dynamically changed and saved.</li>
+                        </ul>The game leverages PHP for backend processing of game moves, state management, and score updates.
+                        <br>Created By: Group project
+                    </p>
+                        <a href="assignment3.html" class="view-details">View Details</a>
+                        <a href="https://github.com/Davidthecoderme/csi3140_a3.git" class="git-link">Git link for project, please click to enter</a>
+                    </div>
                 </div>
-                <div class="info-section-right">
-                    <p>Group project</p>
-                    <br>
+                <div class="project-card">
+                    <img src="../image/hospitalLogoA4.png" alt="Hospital Triage System">
+                    <div class="project-info">
+                        <h3>Hospital Triage System</h3>
+                        <p>Emergency waitlist webapp<br></p>
+                        <a href="project-details5.html" class="view-details">View Details</a>
+                        <a href="https://github.com/Davidthecoderme/CSI3140A4.git" class="git-link">Git link for project, please click to enter</a>
+                    </div>
                 </div>
             </div>
-            
         </div>
     </section>
-    
 </body>
-
-
 </html>
