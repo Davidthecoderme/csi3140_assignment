@@ -1,0 +1,77 @@
+.header{
+    box-sizing: border-box;
+    padding: 20px 10%;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+    background-color: rgb(210, 210, 210);
+    justify-content: center;
+    align-items: center;
+}
+.navBar a{
+    font-size: 15px;
+    color:greenyellow;
+    margin:35px;
+    justify-content: space-between;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease;
+
+}
+.navBar a:hover,
+.navBar a.active{
+    color:red;
+    border-bottom:3px solid red;
+}
+
+.contact{
+    padding: 10px,25px;
+    background-color:white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+.contact:hover{
+    background-color: red;
+    box-shadow: 0 0 20px red;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+    align-self: center;
+    text-align: center;
+}
+
+main.project section {
+    margin-bottom: 2rem;
+}
+
+main.project section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+main.project section p {
+    margin-bottom: 1rem;
+}
+
+main.project section img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+main.project section h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
